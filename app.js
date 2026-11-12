@@ -1,0 +1,1 @@
+const side=document.getElementById('side');document.getElementById('menu')?.addEventListener('click',()=>side.classList.toggle('open'));document.querySelectorAll('.side a').forEach(a=>a.addEventListener('click',()=>side.classList.remove('open')));
